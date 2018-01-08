@@ -1,0 +1,160 @@
+1. Program to print numbers from 10 to 1
+	#include <stdio.h>
+
+
+	int main()
+
+	{
+ 
+	   int i;
+  	
+	   for(i=10;i>0;i--)
+   
+		 {
+    
+		     printf("%d\n",i);
+  
+	         }
+	
+}
+
+
+
+
+==========================================================================================================
+
+2. Program to print characters from z to a
+
+
+
+	#include<stdio.h>
+	int main()
+
+	{
+   
+	   char n;
+   
+	   for(n ='z'; n>='a'; n--)
+    
+	   {
+ 
+	        printf("%c\n",n);
+  
+	   }
+
+	}
+
+===================================================================================================================
+ 3. Program to print square root of a number using math library
+
+
+	#include<stdio.h>
+
+	#include<math.h>
+
+	
+	int main()
+
+	{
+
+    		float a, n;
+
+    		printf("enter a number\n");
+
+    		scanf("%f",&a);
+ 
+   
+   	        n = sqrt(a);
+  
+  
+    		printf("Square root of %.f is %.2f",a,n);
+
+    
+	}
+
+====================================================================================================================
+ 4. Program to evaluate ceil and floor
+
+#include<stdio.h>
+
+#include<math.h>
+
+
+int main()
+
+{
+    float a, n,b,m;
+    
+printf("enter a number for floor evaluation\n");
+    
+scanf("%f",&a);
+    
+   
+  
+ n = floor(a);
+    
+    
+printf("Floor of %f is %.2f",a,n);
+    
+   
+ printf("\nenter a number for ceil evaluation\n");
+    
+scanf("%f",&b);
+    
+   
+  
+ m = ceil(b);
+    
+    
+printf("Floor of %f is %.2f",b,m);
+    
+
+}
+
+=======================================================================================================================
+
+5. Program to find sum of teo arrays
+
+
+#include<stdio.h>
+
+#include<math.h>
+
+
+int main()
+
+{
+    
+	int a[3],b[3],c[3],i;
+    
+	printf("enter the values of first array\n");
+    
+	for(i=0;i<3;i++)
+    
+	scanf("%d",&a[i]);
+    
+    
+	printf("enter the values of second array\n");
+    
+	for(i=0;i<3;i++)
+    
+	scanf("%d",&b[i]);
+    
+   
+	printf("Sum of both the arrays is:");
+    
+	for(i=0;i<3;i++)
+    
+	{
+        
+ 	   c[i]=a[i]+b[i];
+        
+	   printf("%d\n",c[i]);
+        
+   
+	}
+  
+
+}
+========================================================================================================================    
+    
